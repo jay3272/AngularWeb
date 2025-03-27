@@ -17,8 +17,8 @@ export const routes: Routes = [
         component: LoginComponent
       },
       {
-        path: '',
-        component: LayoutComponent,
+        path: 'dashboard',
+        component: DashboardComponent,
         children: [
           {
             path: 'dashboard',
